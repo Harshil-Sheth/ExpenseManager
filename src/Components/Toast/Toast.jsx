@@ -7,7 +7,7 @@ export const Toast = () => {
 
     const {error} = useContext(GlobalContext);
     if(error!==undefined){
-        toast.error(error);
+        toast.error(error,{toastId:'error'});
         console.log(error)
         return(
         <ToastContainer
