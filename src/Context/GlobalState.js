@@ -28,6 +28,7 @@ export const GlobalProvider=({children})=>{
 
     function errorHandler(error){
         dispatch(setError(error));
+        console.log('error <fr></fr>om global')
     }
 
     function resetErrorHandler(transaction){

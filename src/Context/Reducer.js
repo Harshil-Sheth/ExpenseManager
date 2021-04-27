@@ -10,9 +10,11 @@ const reducer =  (state, action)=>{
         case DELETE_TRANSACTION:
             return{
                 ...state,
-                transactions: state.transactions.filter((transaction)=>transaction.id!==action.payload)
+                transactions: state.transactions.filter((transaction)=>transaction.id!==action.payload.id),
+                error: action.payload.error
             };
         case SET_ERROR:
+            console.log(state,action ,':in reducer')
             return{
                 ...state,
                 error: action.payload

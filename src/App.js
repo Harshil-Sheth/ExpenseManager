@@ -5,11 +5,13 @@ import {Toast} from './Components/Toast/Toast'
 import AddDeleteTransaction from './Components/Transaction/AddDeleteTransaction'
 import TransactionList from './Components/TransactionList/TransactionList'
 import {GlobalProvider} from './Context/GlobalState'
+import './index.css';
+
 function App() {
   return (
     <GlobalProvider>
-    <Header/>
     <div className='container'>
+    <Header/>
     <Balance/>
     <IncomeExpense/>
     <TransactionList/>

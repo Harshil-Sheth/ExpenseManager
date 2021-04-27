@@ -8,6 +8,7 @@ export const Toast = () => {
     const {error} = useContext(GlobalContext);
     if(error!==undefined){
         toast.error(error);
+        console.log(error)
         return(
         <ToastContainer
             position="top-right"
