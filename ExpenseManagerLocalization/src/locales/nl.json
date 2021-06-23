@@ -1,0 +1,13 @@
+{
+    "heading_name": "Onkosten Tracker",
+    "heading_balance":"JE BALANS",
+    "income_balance":"INKOMEN",
+    "expense_balance":"KOSTEN",
+    "history_list":"Geschiedenis",
+    "add_new_trans_list":"Nieuwe transactie toevoegen",
+    "text_field":"Tekst",
+    "text_field_inside":"Voer tekst in",
+    "amount_field":"Bedrag",
+    "deposit_button":"Storting",
+    "expense_button":"KOSTEN"
+}

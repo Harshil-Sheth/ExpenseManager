@@ -1,0 +1,13 @@
+{
+    "heading_name":"Expense Tracker",
+    "heading_balance":"YOUR BALANCE",
+    "income_balance":"INCOME",
+    "expense_balance":"EXPENSE",
+    "history_list":"History",
+    "add_new_trans_list":"Add new transaction",
+    "text_field":"Text",
+    "text_field_inside":"Enter text",
+    "amount_field":"Amount",
+    "deposit_button":"Deposit",
+    "expense_button":"Expense"
+}

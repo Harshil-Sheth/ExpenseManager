@@ -1,0 +1,13 @@
+{
+    "heading_name":"Suivi des dépenses",
+    "heading_balance":"VOTRE SOLDE",
+    "income_balance":"LE REVENU",
+    "expense_balance":"FRAIS",
+    "history_list":"Histoire",
+    "add_new_trans_list":"Ajouter une nouvelle transaction",
+    "text_field":"Texte",
+    "text_field_inside":"Entrez du texte",
+    "amount_field":"Montant",
+    "deposit_button":"Dépôt",
+    "expense_button":"FRAIS"
+}
